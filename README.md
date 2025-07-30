@@ -11,7 +11,7 @@ Follow the steps below to set up the project on your local machine.
 
 git clone https://github.com/your-username/your-repo-name.git
 cd "Machine Test"
-⚙ 2. Setup Backend (server folder)
+###  2. Setup Backend (server folder)
 cd server
 npm install
 
@@ -26,7 +26,7 @@ Start the backend server:
 npm start
 Backend will run at: http://localhost:5000
 
- 3. Setup Frontend (adminpanel folder)
+ ### 3. Setup Frontend (adminpanel folder)
 
 cd ../adminpanel
 npm install
@@ -34,7 +34,7 @@ npm start
 Frontend will run at: http://localhost:3000
 
 Admin Login
-Admin credentials are stored in MongoDB.
+Admin credentials are stored in MongoDB Or you can change your credentials in insertadmin.js and execute this backend component separately in backend root directory then start the backend server.
 
 You can manually insert an admin user via MongoDB or build a seed script.
 
